@@ -120,6 +120,7 @@ router.post("/login", async (req, res) => {
     -nat_id (person)
 */
 router.post("/:username", async (req, res) => {
+  // TODO: Create the logic for the route
   res.send(`Retrieving username ${req.params.username}..`);
 });
 
