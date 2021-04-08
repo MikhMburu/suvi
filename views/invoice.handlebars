@@ -1,0 +1,71 @@
+<section id="main">
+  <table id="letter-head">
+    <tbody>
+      <tr>
+        <th scope="row">Invoice No.:</th>
+        <td>123456</td>
+      </tr>
+      <tr>
+        <th scope="row">Billed to:</th>
+        <td>{{name}}</td>
+      </tr>
+      <tr>
+        <th scope="row">House:</th>
+        <td>{{house}}</td>
+      </tr>
+      <tr>
+        <th scope="row">Date:</th>
+        <td>1st April 2021</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table id="inv-details">
+    <thead>
+      <tr>
+        <th scope="col" colspan="2">Item Description</th>
+        <th scope="col">Units</th>
+        <th scope="col">Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2">Balance b/f</td>
+        <td>&nbsp</td>
+        <td class="num">0</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          Water consumption from 1st March 2021 to 31st March 2021
+        </td>
+      </tr>
+      <tr>
+        <td>&nbsp</td>
+        <td>Previous Reading</td>
+        <td class="num">11.8</td>
+        <td>&nbsp</td>
+      </tr>
+      <tr>
+        <td>&nbsp</td>
+        <td>Current Reading</td>
+        <td class="num">24.0</td>
+        <td>&nbsp</td>
+      </tr>
+      <tr>
+        <td>&nbsp</td>
+        <td>Consumption</td>
+        <td class="num">12.4</td>
+        <td class="num">1240</td>
+      </tr>
+      <tr id="total">
+        <td colspan="3">Total Amount Owed</td>
+
+        <td class="num">1240</td>
+      </tr>
+    </tbody>
+  </table>
+  <small class="muted">
+    Make all checks payable to MPESA number 0729358189 and send a
+    confirmation message
+  </small>
+</section>

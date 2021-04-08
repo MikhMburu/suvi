@@ -1,0 +1,406 @@
+{
+	"meter_readings":[
+		{
+			"first_name" : "JOSEPHINE",
+			"surname" : "WAITHIRA",
+			"hseno" : 1,
+			"tenancy_id" : 9,
+			"mtr_reading" : 7.60,
+			"date_of_reading" : "2020-12-01"
+		},
+		{
+			"first_name" : "KENNEDY",
+			"surname" : "KATHURIMA",
+			"hseno" : 1,
+			"tenancy_id" : 10,
+			"mtr_reading" : 36.05,
+			"date_of_reading" : "2021-04-01"
+		},
+		{
+			"first_name" : "JOSEPHINE",
+			"surname" : "WAITHIRA",
+			"hseno" : 1,
+			"tenancy_id" : 9,
+			"mtr_reading" : 0.70,
+			"date_of_reading" : "2020-11-04"
+		},
+		{
+			"first_name" : "KENNEDY",
+			"surname" : "KATHURIMA",
+			"hseno" : 1,
+			"tenancy_id" : 10,
+			"mtr_reading" : 29.20,
+			"date_of_reading" : "2021-03-01"
+		},
+		{
+			"first_name" : "JOSEPHINE",
+			"surname" : "WAITHIRA",
+			"hseno" : 1,
+			"tenancy_id" : 9,
+			"mtr_reading" : 26.20,
+			"date_of_reading" : "2021-01-25"
+		},
+		{
+			"first_name" : "JOSEPHINE",
+			"surname" : "WAITHIRA",
+			"hseno" : 1,
+			"tenancy_id" : 9,
+			"mtr_reading" : 18.30,
+			"date_of_reading" : "2021-01-01"
+		},
+		{
+			"first_name" : "STEVEN",
+			"surname" : "KANJA",
+			"hseno" : 2,
+			"tenancy_id" : 1,
+			"mtr_reading" : 2.50,
+			"date_of_reading" : "2020-11-04"
+		},
+		{
+			"first_name" : "STEVEN",
+			"surname" : "KANJA",
+			"hseno" : 2,
+			"tenancy_id" : 1,
+			"mtr_reading" : 11.60,
+			"date_of_reading" : "2020-12-01"
+		},
+		{
+			"first_name" : "STEVEN",
+			"surname" : "KANJA",
+			"hseno" : 2,
+			"tenancy_id" : 1,
+			"mtr_reading" : 24.00,
+			"date_of_reading" : "2021-01-01"
+		},
+		{
+			"first_name" : "STEVEN",
+			"surname" : "KANJA",
+			"hseno" : 2,
+			"tenancy_id" : 1,
+			"mtr_reading" : 37.20,
+			"date_of_reading" : "2021-02-01"
+		},
+		{
+			"first_name" : "STEVEN",
+			"surname" : "KANJA",
+			"hseno" : 2,
+			"tenancy_id" : 1,
+			"mtr_reading" : 48.90,
+			"date_of_reading" : "2021-03-01"
+		},
+		{
+			"first_name" : "STEVEN",
+			"surname" : "KANJA",
+			"hseno" : 2,
+			"tenancy_id" : 1,
+			"mtr_reading" : 59.55,
+			"date_of_reading" : "2021-04-01"
+		},
+		{
+			"first_name" : "LILIAN",
+			"surname" : "KINYUA",
+			"hseno" : 3,
+			"tenancy_id" : 2,
+			"mtr_reading" : 3.40,
+			"date_of_reading" : "2020-11-04"
+		},
+		{
+			"first_name" : "LILIAN",
+			"surname" : "KINYUA",
+			"hseno" : 3,
+			"tenancy_id" : 2,
+			"mtr_reading" : 4.40,
+			"date_of_reading" : "2020-12-01"
+		},
+		{
+			"first_name" : "LILIAN",
+			"surname" : "KINYUA",
+			"hseno" : 3,
+			"tenancy_id" : 2,
+			"mtr_reading" : 8.40,
+			"date_of_reading" : "2021-01-01"
+		},
+		{
+			"first_name" : "LILIAN",
+			"surname" : "KINYUA",
+			"hseno" : 3,
+			"tenancy_id" : 2,
+			"mtr_reading" : 8.40,
+			"date_of_reading" : "2021-02-01"
+		},
+		{
+			"first_name" : "LILIAN",
+			"surname" : "KINYUA",
+			"hseno" : 3,
+			"tenancy_id" : 2,
+			"mtr_reading" : 12.90,
+			"date_of_reading" : "2021-03-01"
+		},
+		{
+			"first_name" : "LILIAN",
+			"surname" : "KINYUA",
+			"hseno" : 3,
+			"tenancy_id" : 2,
+			"mtr_reading" : 18.40,
+			"date_of_reading" : "2021-04-01"
+		},
+		{
+			"first_name" : "JEZZY",
+			"surname" : "CHEPKIRUI",
+			"hseno" : 4,
+			"tenancy_id" : 3,
+			"mtr_reading" : 0.70,
+			"date_of_reading" : "2020-11-04"
+		},
+		{
+			"first_name" : "JEZZY",
+			"surname" : "CHEPKIRUI",
+			"hseno" : 4,
+			"tenancy_id" : 3,
+			"mtr_reading" : 26.60,
+			"date_of_reading" : "2021-04-01"
+		},
+		{
+			"first_name" : "JEZZY",
+			"surname" : "CHEPKIRUI",
+			"hseno" : 4,
+			"tenancy_id" : 3,
+			"mtr_reading" : 19.50,
+			"date_of_reading" : "2021-03-01"
+		},
+		{
+			"first_name" : "JEZZY",
+			"surname" : "CHEPKIRUI",
+			"hseno" : 4,
+			"tenancy_id" : 3,
+			"mtr_reading" : 12.00,
+			"date_of_reading" : "2021-02-01"
+		},
+		{
+			"first_name" : "JEZZY",
+			"surname" : "CHEPKIRUI",
+			"hseno" : 4,
+			"tenancy_id" : 3,
+			"mtr_reading" : 8.00,
+			"date_of_reading" : "2021-01-01"
+		},
+		{
+			"first_name" : "JEZZY",
+			"surname" : "CHEPKIRUI",
+			"hseno" : 4,
+			"tenancy_id" : 3,
+			"mtr_reading" : 3.50,
+			"date_of_reading" : "2020-12-01"
+		},
+		{
+			"first_name" : "ELIAS",
+			"surname" : "KAMUNDI",
+			"hseno" : 5,
+			"tenancy_id" : 4,
+			"mtr_reading" : 24.45,
+			"date_of_reading" : "2021-04-01"
+		},
+		{
+			"first_name" : "ELIAS",
+			"surname" : "KAMUNDI",
+			"hseno" : 5,
+			"tenancy_id" : 4,
+			"mtr_reading" : 11.10,
+			"date_of_reading" : "2021-02-01"
+		},
+		{
+			"first_name" : "ELIAS",
+			"surname" : "KAMUNDI",
+			"hseno" : 5,
+			"tenancy_id" : 4,
+			"mtr_reading" : 16.90,
+			"date_of_reading" : "2021-03-01"
+		},
+		{
+			"first_name" : "ELIUD",
+			"surname" : "KUBENDE",
+			"hseno" : 6,
+			"tenancy_id" : 5,
+			"mtr_reading" : 11.25,
+			"date_of_reading" : "2021-03-01"
+		},
+		{
+			"first_name" : "ELIUD",
+			"surname" : "KUBENDE",
+			"hseno" : 6,
+			"tenancy_id" : 5,
+			"mtr_reading" : 8.30,
+			"date_of_reading" : "2021-02-01"
+		},
+		{
+			"first_name" : "ELIUD",
+			"surname" : "KUBENDE",
+			"hseno" : 6,
+			"tenancy_id" : 5,
+			"mtr_reading" : 5.40,
+			"date_of_reading" : "2021-01-01"
+		},
+		{
+			"first_name" : "ELIUD",
+			"surname" : "KUBENDE",
+			"hseno" : 6,
+			"tenancy_id" : 5,
+			"mtr_reading" : 1.30,
+			"date_of_reading" : "2020-12-01"
+		},
+		{
+			"first_name" : "ELIUD",
+			"surname" : "KUBENDE",
+			"hseno" : 6,
+			"tenancy_id" : 5,
+			"mtr_reading" : 0.00,
+			"date_of_reading" : "2020-11-04"
+		},
+		{
+			"first_name" : "ELIUD",
+			"surname" : "KUBENDE",
+			"hseno" : 6,
+			"tenancy_id" : 5,
+			"mtr_reading" : 14.95,
+			"date_of_reading" : "2021-04-01"
+		},
+		{
+			"first_name" : "LUCY",
+			"surname" : "MUTHONI",
+			"hseno" : 7,
+			"tenancy_id" : 6,
+			"mtr_reading" : 0.80,
+			"date_of_reading" : "2021-02-01"
+		},
+		{
+			"first_name" : "LUCY",
+			"surname" : "MUTHONI",
+			"hseno" : 7,
+			"tenancy_id" : 6,
+			"mtr_reading" : 2.45,
+			"date_of_reading" : "2021-03-01"
+		},
+		{
+			"first_name" : "LUCY",
+			"surname" : "MUTHONI",
+			"hseno" : 7,
+			"tenancy_id" : 6,
+			"mtr_reading" : 4.20,
+			"date_of_reading" : "2021-04-01"
+		},
+		{
+			"first_name" : "FAITH",
+			"surname" : "NJORE",
+			"hseno" : 8,
+			"tenancy_id" : 7,
+			"mtr_reading" : 0.80,
+			"date_of_reading" : "2021-02-01"
+		},
+		{
+			"first_name" : "FAITH",
+			"surname" : "NJORE",
+			"hseno" : 8,
+			"tenancy_id" : 7,
+			"mtr_reading" : 5.35,
+			"date_of_reading" : "2021-03-01"
+		},
+		{
+			"first_name" : "FAITH",
+			"surname" : "NJORE",
+			"hseno" : 8,
+			"tenancy_id" : 7,
+			"mtr_reading" : 10.45,
+			"date_of_reading" : "2021-04-01"
+		},
+		{
+			"first_name" : "DAISY",
+			"surname" : "ROTICH",
+			"hseno" : 9,
+			"tenancy_id" : 8,
+			"mtr_reading" : 4.45,
+			"date_of_reading" : "2021-03-01"
+		},
+		{
+			"first_name" : "DAISY",
+			"surname" : "ROTICH",
+			"hseno" : 9,
+			"tenancy_id" : 8,
+			"mtr_reading" : 9.85,
+			"date_of_reading" : "2021-04-01"
+		}
+	],
+	"houses":[
+		{
+			"tenancy_id" : 10,
+			"first_name" : "KENNEDY",
+			"surname" : "KATHURIMA",
+			"hseno" : 1,
+			"occupied" : 1,
+			"active" : 1
+		},
+		{
+			"tenancy_id" : 1,
+			"first_name" : "STEVEN",
+			"surname" : "KANJA",
+			"hseno" : 2,
+			"occupied" : 1,
+			"active" : 1
+		},
+		{
+			"tenancy_id" : 2,
+			"first_name" : "LILIAN",
+			"surname" : "KINYUA",
+			"hseno" : 3,
+			"occupied" : 1,
+			"active" : 1
+		},
+		{
+			"tenancy_id" : 4,
+			"first_name" : "ELIAS",
+			"surname" : "KAMUNDI",
+			"hseno" : 5,
+			"occupied" : 1,
+			"active" : 1
+		},
+		{
+			"tenancy_id" : 5,
+			"first_name" : "ELIUD",
+			"surname" : "KUBENDE",
+			"hseno" : 6,
+			"occupied" : 1,
+			"active" : 1
+		},
+		{
+			"tenancy_id" : 6,
+			"first_name" : "LUCY",
+			"surname" : "MUTHONI",
+			"hseno" : 7,
+			"occupied" : 1,
+			"active" : 1
+		},
+		{
+			"tenancy_id" : 7,
+			"first_name" : "FAITH",
+			"surname" : "NJORE",
+			"hseno" : 8,
+			"occupied" : 1,
+			"active" : 1
+		},
+		{
+			"tenancy_id" : 8,
+			"first_name" : "DAISY",
+			"surname" : "ROTICH",
+			"hseno" : 9,
+			"occupied" : 1,
+			"active" : 1
+		},
+		{
+			"tenancy_id" : 11,
+			"first_name" : "KENNEDY",
+			"surname" : "MBURU",
+			"hseno" : 10,
+			"occupied" : 1,
+			"active" : 1
+		}
+	]
+}

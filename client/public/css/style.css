@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background: #fcf5da;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+header {
+  margin-top: 0;
+  min-height: 20vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#def752), to(#f0f0e6));
+  background-image: linear-gradient(180deg, #def752, #f0f0e6);
+  color: #07013a;
+  border-bottom: 3px solid #07013a;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Courgette", cursive;
+  font-size: 50;
+  padding: 20px;
+}
+
+header h3 {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+#main {
+  padding: 5%;
+  min-height: 53vh;
+}
+
+#letter-head tbody tr th {
+  text-align: left;
+  color: #07013a;
+}
+
+#inv-details {
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 90%;
+  border-style: groove;
+}
+
+#inv-details thead {
+  background: #07013a;
+  color: #fcf5da;
+  text-align: left;
+  padding: 5px;
+}
+
+#inv-details thead th {
+  padding: 15px 10px;
+}
+
+#inv-details tbody {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#inv-details tbody .num {
+  text-align: right;
+  padding-right: 10px;
+}
+
+#inv-details #total {
+  font-size: larger;
+  font-weight: 600;
+  background: #212220;
+  color: whitesmoke;
+}
+
+#inv-details #total td {
+  padding: 10px;
+}
+
+.muted {
+  color: #63625f;
+}
+
+footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#85b6b9), to(#8b84f1));
+  background-image: linear-gradient(180deg, #85b6b9, #8b84f1);
+  min-height: 11vh;
+  margin-bottom: 0;
+  text-align: center;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}

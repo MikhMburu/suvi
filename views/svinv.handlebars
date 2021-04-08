@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Invoice</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto&display=swap");
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+      background: #fcf5da;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-line-pack: justify;
+      align-content: space-between;
+    }
+
+    header {
+      margin-top: 0;
+      min-height: 20vh;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#def752), to(#f0f0e6));
+      background-image: linear-gradient(180deg, #def752, #f0f0e6);
+      color: #07013a;
+      border-bottom: 3px solid #07013a;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: "Courgette", cursive;
+      font-size: 50;
+      padding: 20px;
+    }
+
+    header h3 {
+      text-decoration: underline;
+      font-weight: 800;
+    }
+
+    #main {
+      padding: 5%;
+      min-height: 120vh;
+    }
+
+    #letter-head tbody tr th {
+      text-align: left;
+      color: #07013a;
+    }
+
+    #inv-details {
+      border-radius: 5px;
+      margin-top: 20px;
+      width: 90%;
+      border-style: groove;
+    }
+
+    #inv-details thead {
+      background: #07013a;
+      color: #fcf5da;
+      text-align: left;
+      padding: 5px;
+    }
+
+    #inv-details thead th {
+      padding: 15px 10px;
+    }
+
+    #inv-details tbody {
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+
+    #inv-details tbody .num {
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    #inv-details #total {
+      font-size: larger;
+      font-weight: 600;
+      background: #212220;
+      color: whitesmoke;
+    }
+
+    #inv-details #total td {
+      padding: 10px;
+    }
+
+    .muted {
+      color: #63625f;
+    }
+
+    footer {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#85b6b9), to(#8b84f1));
+      background-image: linear-gradient(180deg, #85b6b9, #8b84f1);
+      min-height: 13vh;
+      margin-bottom: 0;
+      text-align: center;
+      -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>SUNNYVIEW APARTMENTS</h1>
+    <h3>Monthly Water Bill</h3>
+  </header>
+  <section id="main">
+    <table id="letter-head">
+      <tbody>
+        <tr>
+          <th scope="row">Invoice No.:</th>
+          <td>123456</td>
+        </tr>
+        <tr>
+          <th scope="row">Billed to:</th>
+          <td>{{name}}</td>
+        </tr>
+        <tr>
+          <th scope="row">House:</th>
+          <td>{{house}}</td>
+        </tr>
+        <tr>
+          <th scope="row">Date:</th>
+          <td>1st April 2021</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="inv-details">
+      <thead>
+        <tr>
+          <th scope="col" colspan="2">Item Description</th>
+          <th scope="col">Units</th>
+          <th scope="col">Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">Balance b/f</td>
+          <td>&nbsp</td>
+          <td class="num">0</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Water consumption from 1st March 2021 to 31st March 2021
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp</td>
+          <td>Previous Reading</td>
+          <td class="num">11.8</td>
+          <td>&nbsp</td>
+        </tr>
+        <tr>
+          <td>&nbsp</td>
+          <td>Current Reading</td>
+          <td class="num">24.0</td>
+          <td>&nbsp</td>
+        </tr>
+        <tr>
+          <td>&nbsp</td>
+          <td>Consumption</td>
+          <td class="num">12.4</td>
+          <td class="num">1240</td>
+        </tr>
+        <tr id="total">
+          <td colspan="3">Total Amount Owed</td>
+
+          <td class="num">1240</td>
+        </tr>
+      </tbody>
+    </table>
+    <small class="muted">
+      Make all checks payable to MPESA number 0729358189 and send a
+      confirmation message
+    </small>
+  </section>
+  <footer>
+    <p>
+      If you have any information concerning the invoice, Please contact any
+      of the following
+    </p>
+    <div class="contact-footer">
+      <small> Susan Mburu | 0733921796 | mdjmnganga@outlook.com </small><br />
+      <small class="muted"> Copyright &copy 2021 </small>
+    </div>
+  </footer>
+</body>
+
+</html>
